@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.21)
+project(projects)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(projects main.cpp)
+
+
+add_executable(menpaihao DataStructAndAlgotirhm/BlueBrigeTopic/制作门牌号.cpp)
+add_executable(joseph DataStructAndAlgotirhm/joseph.cpp)
+add_executable(jiyuefenshu DataStructAndAlgotirhm/BlueBrigeTopic/既约分数.cpp)
+add_executable(sneak DataStructAndAlgotirhm/BlueBrigeTopic/蛇形矩阵算对角线.cpp)
+add_executable(nixuzifuchuan DataStructAndAlgotirhm/String/逆序字符串.cpp)
+add_executable(GaussianDiary DataStructAndAlgotirhm/BlueBrigeTopic/GaussianDiary.cpp)
+add_executable(TheNumberOfSquaresInTheExclusion DataStructAndAlgotirhm/BlueBrigeTopic/排它平方数.cpp)
+add_executable(PareenthesisMatching DataStructAndAlgotirhm/Stack.cpp)
+
+add_executable(reversePrice DataStructAndAlgotirhm/BlueBrigeTopic/reversePrice.cpp)
+add_executable(longestPalindrome DataStructAndAlgotirhm/DynamicProgramming/longestPalindrome.cpp)
+add_executable(lengthOfLongestSubstring DataStructAndAlgotirhm/String/lengthOfLongestSubstring.cpp)
+add_executable(tree DataStructAndAlgotirhm/tree.cpp)
+add_executable(FalseId DataStructAndAlgotirhm/BlueBrigeTopic/FalseId.cpp)
