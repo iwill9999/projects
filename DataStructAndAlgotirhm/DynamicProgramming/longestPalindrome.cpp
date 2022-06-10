@@ -37,7 +37,7 @@ string first(string a){
 
 
 int main(){
-
+    cout << "hello " << endl;
     cout <<first("abcacba");
     return 0;
 }
